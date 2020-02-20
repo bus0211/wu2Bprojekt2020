@@ -1,0 +1,21 @@
+sidor:
+    start
+    fotografen (om)
+    bildgalleri
+    info/artiklar
+    Kontakt
+
+engelsk sida
+
+6/2 försökte fixa galleri, misslyckades
+8/2 fixade desptopversionen (gjorde om drop-down till en gonstant nav)
+10/2 fixade lite css på mobilsidan. Textstorlek, skugga på länkarna i drop-down. Började även lägga in <span> på alla <a>
+19/2 slutade procastinera js
+
+
+fixa desktopsida:
+    göra så att drop-down (själva navigeringen) ligger direkt under header (naven ligger precis under). Göra så att menyknappen inte syns.
+    *Klart*
+
+Lägga span på alla <a>:
+    lägga in ock kontrollera så att alla funkar

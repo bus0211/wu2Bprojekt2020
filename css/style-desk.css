@@ -1,0 +1,190 @@
+.grid-container {
+    display: grid;
+    height: 98vh;
+    width: 100vw;
+    margin: auto;
+    gap: 2px;
+    grid-template-columns: 1fr 9fr;
+    grid-template-rows: 60px 60px 10fr 1fr;
+    grid-template-areas:
+    'hd hd'
+    'n n'
+    'm m'
+    'ft ft'
+}
+
+body{
+    background-color: gray;
+    margin:0;
+}
+
+/*drop-down*/
+.drop-down{
+    position: fixed;
+    top: 65px;
+    left: 0;
+    z-index: 10;
+    height: 65px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu-button{
+    display: none;
+
+}
+
+.show{
+    left: 0;
+}
+
+.drop-down > h3{
+    display:none;
+}
+
+.drop-down > a{
+    display: flex;
+    flex-grow: 1;
+}
+
+.fade-layer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,5);
+    opacity: 0.1;
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: none;
+}
+
+/*grid*/
+header{
+    grid-area: hd;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 65px; 
+    z-index: 2;
+}
+
+nav{
+    grid-area: n;
+    background-color: gray;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    height: 65px;
+
+}
+
+main{
+    grid-area: m;
+    background-color:white;
+    padding-top: 15px;
+}
+
+footer{
+    grid-area: ft;
+    background-color:white;
+}
+
+/*Images*/
+#profil{
+    display: block;
+    width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*Content*/
+.drop-down > a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin: auto;
+}
+
+a{
+    color: black;
+}
+
+.drop-down > a:hover{
+    color: white;
+}
+
+.drop-down > a, a{
+    margin-left: 4vw;
+}
+
+.drop-down > a > span{
+    font-size: 25px;
+    text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, .4);
+}
+
+.in-text{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+table{
+    margin-left: 4vw;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 4px;
+}
+
+ul{
+    margin-left: 4vw;
+}
+
+h2{
+    
+    margin-left: 4vw;
+    margin-right: 4vw;  
+    font-size: 2vw;
+}
+
+h3{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 1.2vw;
+}
+
+
+p{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    font-size: 1vw;
+}
+
+a > span{
+    font-size: 1vw;
+}
+
+.links-about{
+    display: none;
+}
