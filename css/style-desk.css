@@ -48,6 +48,11 @@ body{
 .drop-down > a{
     display: flex;
     flex-grow: 1;
+    
+}
+
+.drop-down > a > span{
+    color: white;
 }
 
 .fade-layer{
@@ -94,8 +99,8 @@ main{
     background-color:white;
     padding-top: 15px;
 
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 
     border-radius: 8px;
 }
@@ -104,8 +109,8 @@ footer{
     grid-area: ft;
     background-color:white;
 
-    margin-left: 7vw;
-    margin-right: 7vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 
     border-radius: 8px;
 }
@@ -132,8 +137,8 @@ a{
     color: black;
 }
 
-.drop-down > a:hover{
-    color: white;
+.drop-down > a > span:hover{
+    color: black;
 }
 
 .drop-down > a, a{
@@ -156,7 +161,7 @@ h1{
 }
 
 table{
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 table, td{
@@ -165,30 +170,30 @@ table, td{
 }
 
 td{
-    padding: 4px;
+    padding: 3px;
 }
 
 ul{
-    margin-left: 4vw;
+    margin-left: 3vw;
 }
 
 h2{
     
-    margin-left: 4vw;
-    margin-right: 4vw;  
+    margin-left: 3vw;
+    margin-right: 3vw;  
     font-size: 2vw;
 }
 
 h3{
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
     font-size: 1vw;
 }
 
 
 p{
-    margin-left: 4vw;
-    margin-right: 4vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
     font-size: 1.8vh;
 }
 
