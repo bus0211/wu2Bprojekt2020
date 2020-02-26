@@ -3,7 +3,7 @@
     height: 98vh;
     width: 100vw;
     margin: auto;
-    gap: 2px;
+    gap: 4px;
     grid-template-columns: 1fr 9fr;
     grid-template-rows: 60px 60px 10fr 1fr;
     grid-template-areas:
@@ -14,8 +14,9 @@
 }
 
 body{
-    background-color: gray;
     margin:0;
+    background-image: url(../img-photo/flowers/93-28-85.jpg);
+
 }
 
 /*drop-down*/
@@ -92,11 +93,21 @@ main{
     grid-area: m;
     background-color:white;
     padding-top: 15px;
+
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+    border-radius: 8px;
 }
 
 footer{
     grid-area: ft;
     background-color:white;
+
+    margin-left: 7vw;
+    margin-right: 7vw;
+
+    border-radius: 8px;
 }
 
 /*Images*/
@@ -171,14 +182,14 @@ h2{
 h3{
     margin-left: 4vw;
     margin-right: 4vw;
-    font-size: 1.2vw;
+    font-size: 1vw;
 }
 
 
 p{
     margin-left: 4vw;
     margin-right: 4vw;
-    font-size: 1vw;
+    font-size: 1.8vh;
 }
 
 a > span{
