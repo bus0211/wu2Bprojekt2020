@@ -21,7 +21,7 @@ body{
 .drop-down{
     height: 100vh;
     width: 60vw;
-    background: gray;
+    background: rgba(74, 76, 85);
     position: fixed;
     top: 0;
     left: -70vw;
@@ -58,7 +58,7 @@ body{
 /*grid*/
 header{
     grid-area: hd;
-    background-color: gray;
+    background-color: rgba(74, 76, 85);
     position: fixed;
     top: 0;
     right: 0;
@@ -69,7 +69,7 @@ header{
 
 nav{
     grid-area: n;
-    background-color: gray;
+    background-color: rgba(74, 76, 85);
     position: fixed;
     top: 0;
     left: 0;
@@ -92,6 +92,7 @@ footer{
 /* images */
 .menu-button{
     height: 60px;
+    width: 60px;
     margin-left: 4vw;
     margin-top: 3px;
 }
@@ -173,10 +174,12 @@ ul{
     font-size: 6vw;
     text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, .4);
     margin-bottom: 3vw;
+    color: white;
 }
 
 .drop-down > h3{
     font-size: 7vw;
+    color: white;
 }
 
 .in-text{
@@ -185,6 +188,7 @@ ul{
 
 header > h1{
     text-align: center;
+    color: white;
 }
 
 /*Lightbox*/

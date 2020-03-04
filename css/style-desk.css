@@ -3,7 +3,7 @@
     height: 98vh;
     width: 100vw;
     margin: auto;
-    gap: 4px;
+    gap: 14px;
     grid-template-columns: 1fr 9fr;
     grid-template-rows: 60px 60px 10fr 1fr;
     grid-template-areas:
@@ -30,6 +30,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: rgba(74, 76, 85);
 }
 
 .menu-button{
@@ -79,7 +80,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    height: 65px; 
+    height: 70px; 
     z-index: 2;
 }
 
@@ -146,7 +147,7 @@ a{
 }
 
 .drop-down > a > span{
-    font-size: 25px;
+    font-size: 3vh;
     text-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, .4);
 }
 
