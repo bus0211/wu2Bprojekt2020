@@ -3,17 +3,17 @@
     height: 98vh;
     width: 100vw;
     margin: auto;
-    gap: 2px;
-    grid-template-columns: 1fr 9fr;
+    gap: 8px;
+    grid-template-columns: 9fr 1fr;
     grid-template-rows: 60px 10fr 1fr;
     grid-template-areas:
-    'n hd'
+    'hd n'
     'm m'
     'ft ft'
 }
 
 body{
-    background-color: gray;
+    background-color: rgba(74, 76, 85, 0.5);
     margin:0;
 }
 
@@ -24,7 +24,7 @@ body{
     background: rgba(74, 76, 85);
     position: fixed;
     top: 0;
-    left: -70vw;
+    right: -70vw;
     transition: left 0.2s;
     z-index: 10;
 }
@@ -35,7 +35,7 @@ body{
 }
 
 .show{
-    left: 0;
+    right: 0;
 }
 
 .fade-layer{
@@ -63,7 +63,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    height: 65px; 
+    height: 70px; 
     z-index: 2;
 }
 
@@ -72,9 +72,9 @@ nav{
     background-color: rgba(74, 76, 85);
     position: fixed;
     top: 0;
-    left: 0;
-    right: 80vw;
-    height: 65px;
+    left: 80vw;
+    right: 0;
+    height: 70px;
     z-index: 3;
 }
 
@@ -93,7 +93,7 @@ footer{
 .menu-button{
     height: 60px;
     width: 60px;
-    margin-left: 4vw;
+    margin-right: 4vw;
     margin-top: 3px;
 }
 
