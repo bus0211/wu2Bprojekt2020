@@ -16,7 +16,7 @@
 body{
     margin:0;
     background-image: url(../img-photo/flowers/93-28-85.jpg);
-
+    overflow-x: hidden;
 }
 
 /*drop-down*/
@@ -80,7 +80,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
-    height: 70px; 
+    height: 65px; 
     z-index: 2;
 }
 
